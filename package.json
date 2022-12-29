@@ -1,0 +1,25 @@
+{
+  "name": "get-run-params",
+  "version": "1.6.1",
+  "main": "ind.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.241.0",
+    "@aws-sdk/credential-provider-sso": "^3.241.0",
+    "chalk": "^5.2.0",
+    "commander": "^9.4.1",
+    "enquirer": "^2.3.6",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  },
+  "bin": {
+    "params": "./index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
